@@ -1,0 +1,130 @@
+# lattice-scale --inv-acoustic-scale=11 "ark:gunzip -c exp/tri2/decode/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/tri2/graph/words.txt ark:- ark,t:- | utils/int2sym.pl -f 2- exp/tri2/graph/words.txt | cat > exp/tri2/decode/scoring_kaldi/penalty_0.0/11.txt 
+# Started at Sun May  2 10:02:35 UTC 2021
+#
+lattice-scale --inv-acoustic-scale=11 'ark:gunzip -c exp/tri2/decode/lat.*.gz|' ark:- 
+lattice-best-path --word-symbol-table=exp/tri2/graph/words.txt ark:- ark,t:- 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0004, best cost 25.0281 + 2512.6 = 2537.62 over 303 frames.
+6030133421_0004 ไป หน้า ถัดไป 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0006, best cost 26.1551 + 2031.34 = 2057.5 over 237 frames.
+6030133421_0006 ไป หน้า ก่อน หน้า 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0008, best cost 18.8588 + 1737.89 = 1756.74 over 208 frames.
+6030133421_0008 ไป หน้า แรก 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0010, best cost 28.5096 + 1971.62 = 2000.13 over 225 frames.
+6030133421_0010 เหล้า ไป หน้า แรก 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0012, best cost 22.1741 + 2007.57 = 2029.75 over 223 frames.
+6030133421_0012 ไป หน้า สุดท้าย 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0014, best cost 29.0267 + 2704.93 = 2733.95 over 313 frames.
+6030133421_0014 เปลี่ยน หน้า ไป หน้า ที่ หนึ่ง 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0016, best cost 28.5726 + 2321.94 = 2350.51 over 263 frames.
+6030133421_0016 เปลี่ยน หน้า ไป หน้า ที่ สาม 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0018, best cost 27.1147 + 2860.02 = 2887.13 over 342 frames.
+6030133421_0018 เปลี่ยน หน้า ไป หน้า ที่ เก้า 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0020, best cost 34.8057 + 2718.98 = 2753.79 over 306 frames.
+6030133421_0020 เปลี่ยน หน้า ไป หน้า ที่ สิบ เสต๊ก 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0022, best cost 29.1166 + 2502.13 = 2531.25 over 282 frames.
+6030133421_0022 เปลี่ยน หน้า ไป หน้า ที่ แปด 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0024, best cost 30.9893 + 2795.17 = 2826.16 over 312 frames.
+6030133421_0024 เปลี่ยน หน้า ไป หน้า ที่ ยี่ สิบ 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0026, best cost 38.5762 + 3363.51 = 3402.09 over 384 frames.
+6030133421_0026 ย้อน ร้าน ลำดับ ที่ สี่ 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0028, best cost 27.2959 + 2435.73 = 2463.02 over 275 frames.
+6030133421_0028 เลือก ร้าน ที่ สิบ เก้า 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0030, best cost 29.4103 + 2639.49 = 2668.9 over 272 frames.
+6030133421_0030 เลือก ร้าน ลำดับ ที่ ยี่ สิบ 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0032, best cost 23.5513 + 2190.57 = 2214.12 over 244 frames.
+6030133421_0032 เลือก ร้าน ที่ สิบ แปด 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0034, best cost 27.7586 + 2180.79 = 2208.55 over 233 frames.
+6030133421_0034 เลือก ร้าน ลำดับ สิบ สอง 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0036, best cost 25.5367 + 2501.1 = 2526.63 over 277 frames.
+6030133421_0036 เลือก ร้าน ที่ สิบ เอ็ด 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0038, best cost 23.5448 + 1862.17 = 1885.71 over 208 frames.
+6030133421_0038 เลือก รายการ แปด 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0040, best cost 27.9661 + 2574.63 = 2602.6 over 284 frames.
+6030133421_0040 เลือก ลำดับ ที่ สิบ สาม 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0042, best cost 25.6248 + 2331.6 = 2357.22 over 267 frames.
+6030133421_0042 เลือก รายการ ที่ เก้า 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030133421_0044, best cost 24.0933 + 1888.02 = 1912.12 over 207 frames.
+6030133421_0044 เลือก รายการ สิบ 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0046, best cost 29.367 + 1516.94 = 1546.31 over 203 frames.
+6030352521_0046 ประเภท ที่ ที่ หนึ่ง 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0048, best cost 22.1795 + 1535.98 = 1558.16 over 210 frames.
+6030352521_0048 ประเภท คลองสาร 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0050, best cost 20.0128 + 1955.86 = 1975.87 over 275 frames.
+6030352521_0050 ประเภท สี่ 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0052, best cost 26.1502 + 1597.56 = 1623.71 over 215 frames.
+6030352521_0052 ประเภท บุฟเฟ่ต์ เสต๊ก 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0054, best cost 21.9472 + 1804.55 = 1826.5 over 248 frames.
+6030352521_0054 ประเภท อาหาร เกาหลี 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0056, best cost 27.1229 + 1692.23 = 1719.36 over 228 frames.
+6030352521_0056 ประเภท อาหาร ที่ สาม 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0058, best cost 21.2975 + 1485.21 = 1506.51 over 210 frames.
+6030352521_0058 ร้าน ติ่มซำ 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0060, best cost 20.0119 + 1467.14 = 1487.15 over 200 frames.
+6030352521_0060 ร้าน อาหาร ทะเล 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0062, best cost 28.9115 + 1919.32 = 1948.23 over 266 frames.
+6030352521_0062 หา ร้าน ที่ ที่ เก้า 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0064, best cost 23.3144 + 1628.73 = 1652.04 over 233 frames.
+6030352521_0064 หา ร้าน ที่ หนึ่ง 
+LOG (lattice-scale[5.5.0~1531-d619]:main():lattice-scale.cc:107) Done 59 lattices.
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0066, best cost 33.2646 + 1783.38 = 1816.64 over 248 frames.
+6030352521_0066 หา ร้าน รูป ถัด ห้า 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0068, best cost 17.8457 + 1735.55 = 1753.4 over 251 frames.
+6030352521_0068 เลือก ประเภท 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0070, best cost 29.0315 + 2268.9 = 2297.93 over 306 frames.
+6030352521_0070 แสดง ประเภท ร้าน อาหาร 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0072, best cost 15.1838 + 1443.85 = 1459.03 over 201 frames.
+6030352521_0072 ยกเลิก 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0074, best cost 21.1896 + 1797.3 = 1818.49 over 239 frames.
+6030352521_0074 ช่วง ราคา ถูก มาก 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0076, best cost 19.5159 + 1817.09 = 1836.6 over 257 frames.
+6030352521_0076 ราคา ปานกลาง 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0078, best cost 17.2128 + 1787.88 = 1805.09 over 248 frames.
+6030352521_0078 ราคา ถูก 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0080, best cost 18.077 + 1535.09 = 1553.16 over 212 frames.
+6030352521_0080 ราคา ถูก มาก 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0082, best cost 35.4042 + 1623.91 = 1659.31 over 212 frames.
+6030352521_0082 อย่าง ต่ำ สาม อย่าง 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0084, best cost 32.3524 + 1436.12 = 1468.47 over 194 frames.
+6030352521_0084 ใน เลือก อย่าง 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0086, best cost 19.619 + 1762.18 = 1781.8 over 228 frames.
+6030352521_0086 บริเวณ สยาม 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0088, best cost 23.7086 + 1652.23 = 1675.94 over 221 frames.
+6030352521_0088 แถว แถว ข้าวสาร 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0090, best cost 18.1203 + 1515.24 = 1533.36 over 206 frames.
+6030352521_0090 แถว คลองตัน 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0092, best cost 22.4403 + 1776.83 = 1799.27 over 231 frames.
+6030352521_0092 ใน ตลาดนัด จตุจักร 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6030352521_0094, best cost 16.9701 + 1660.16 = 1677.13 over 233 frames.
+6030352521_0094 เลือก สถานที่ 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0096, best cost 21.4352 + 1483.88 = 1505.32 over 172 frames.
+6031323521_0096 ดู รีวิว ถัด 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0098, best cost 21.0362 + 1656.39 = 1677.43 over 191 frames.
+6031323521_0098 ดู รีวิว ถัด ไป 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0100, best cost 15.3458 + 1306.65 = 1322 over 159 frames.
+6031323521_0100 นำทาง 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0102, best cost 29.0289 + 1412.39 = 1441.42 over 159 frames.
+6031323521_0102 นำทาง ไป ที่ ร้าน 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0104, best cost 22.6224 + 1219.86 = 1242.48 over 148 frames.
+6031323521_0104 ดู เบอร์ เก้า 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0106, best cost 23.8703 + 1212.39 = 1236.26 over 132 frames.
+6031323521_0106 ดู เบอร์ โทรศัพท์ ร้าน 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0108, best cost 19.387 + 1024.24 = 1043.63 over 121 frames.
+6031323521_0108 โทรศัพท์ หา ร้าน 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0110, best cost 17.8936 + 1442.43 = 1460.32 over 169 frames.
+6031323521_0110 ดู รูป ถัด ไป 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0112, best cost 19.7763 + 1482.38 = 1502.15 over 181 frames.
+6031323521_0112 ดู รูป ก่อน หน้า 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0114, best cost 32.9928 + 1353.29 = 1386.28 over 154 frames.
+6031323521_0114 มี ที่ ดาว ไหม 
+LOG (lattice-add-penalty[5.5.0~1531-d619]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 59 lattices.
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0116, best cost 29.2917 + 1486.84 = 1516.13 over 167 frames.
+6031323521_0116 ลำดับ ที่ ยี่ ไหม 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0118, best cost 17.8964 + 1436.2 = 1454.1 over 178 frames.
+6031323521_0118 มี เบียร์ ไหม 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:99) For utterance 6031323521_0120, best cost 27.0211 + 1383.96 = 1410.98 over 160 frames.
+6031323521_0120 เกาหลี เปิด ไหม 
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:124) Overall cost per frame is 8.2539 = 0.107276 [graph] + 8.14662 [acoustic] over 13531 frames.
+LOG (lattice-best-path[5.5.0~1531-d619]:main():lattice-best-path.cc:128) Done 59 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun May  2 10:02:35 UTC 2021, elapsed time 0 seconds

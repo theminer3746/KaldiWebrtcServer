@@ -1,0 +1,105 @@
+<SIL> <SIL> SIL_S
+<eps> <eps> SIL
+กลับ กลับ kl_B a_I p^_E
+กาแฟ กาแฟ k_B aa_I f_I xx_E
+ก่อน ก่อน k_B @@_I n^_E
+ก่อนหน้า ก่อนหน้า k_B @@_I n^_I n_I aa_E
+ก๋วยเตี๋ยว ก๋วยเตี๋ยว k_B uua_I j^_I t_I iia_I w^_E
+ของ ของ kh_B @@_I ng^_E
+ของหวาน ของหวาน kh_B @@_I ng^_I w_I aa_I n^_E
+ขึ้น ขึ้น kh_B v_I n^_E
+ข้าวสาร ข้าวสาร kh_B aa_I w^_I s_I aa_I n^_E
+คลองตัน คลองตัน khl_B @@_I ng^_I t_I a_I n^_E
+คลองสาร คลองสาร khl_B @@_I ng^_I s_I aa_I n^_E
+ค้นหา ค้นหา kh_B o_I n^_I h_I aa_E
+งบ งบ ng_B o_I p^_E
+จตุจักร จตุจักร c_B a_I t_I u_I c_I a_I k^_E
+จุฬา จุฬา c_B u_I l_I aa_E
+ชาบู ชาบู ch_B aa_I b_I uu_E
+ช่วง ช่วง ch_B uua_I ng^_E
+ซูชิ ซูชิ s_B uu_I ch_I i_E
+ญี่ปุ่น ญี่ปุ่น j_B ii_I p_I u_I n^_E
+ดาว ดาว d_B aa_I w^_E
+ดู ดู d_B uu_E
+ตลาด ตลาด t_B a_I l_I aa_I t^_E
+ตลาดนัด ตลาดนัด t_B a_I l_I aa_I t^_I n_I a_I t^_E
+ตอนนี้ ตอนนี้ t_B @@_I n^_I n_I ii_E
+ติ่มซำ ติ่มซำ t_B i_I m^_I s_I a_I m^_E
+ต่ำ ต่ำ t_B a_I m^_E
+ถัด ถัด th_B a_I t^_E
+ถัดไป ถัดไป th_B a_I t^_I p_I a_I j^_E
+ถูก ถูก th_B uu_I k^_E
+ทะเล ทะเล th_B a_I l_I ee_E
+ที่ ที่ th_B ii_E
+ที่จอดรถ ที่จอดรถ th_B ii_I c_I @@_I t^_I r_I o_I t^_E
+นำทาง นำทาง n_B a_I m^_I th_I aa_I ng^_E
+บริเวณ บริเวณ b_B @@_I r_I i_I w_I ee_I n^_E
+บัตรเครดิต บัตรเครดิต b_B a_I t^_I tr_I khr_I ee_I d_I i_I t^_E
+บุฟเฟ่ต์ บุฟเฟ่ต์ b_B u_I f_I f_E
+ประเภท ประเภท pr_B a_I ph_I ee_I t^_E
+ปานกลาง ปานกลาง p_B aa_I n^_I kl_I aa_I ng^_E
+ปิด ปิด p_B i_I t^_E
+ปิ้งย่าง ปิ้งย่าง p_B i_I ng^_I j_I aa_I ng^_E
+พิซซ่า พิซซ่า ph_B i_I s_I s_I aa_E
+มาก มาก m_B aa_I k^_E
+มี มี m_B ii_E
+ยกเลิก ยกเลิก j_B o_I k^_I l_I qq_I k^_E
+ยี่ ยี่ j_B ii_E
+ย้อน ย้อน j_B @@_I n^_E
+รับ รับ r_B a_I p^_E
+ราคา ราคา r_B aa_I kh_I aa_E
+รายการ รายการ r_B aa_I j^_I k_I aa_I n^_E
+รีวิว รีวิว r_B ii_I w_I i_I w^_E
+รูป รูป r_B uu_I p^_E
+ร้าน ร้าน r_B aa_I n^_E
+ร้านอาหาร ร้านอาหาร r_B aa_I n^_I z_I aa_I h_I aa_I n^_E
+ลำดับ ลำดับ l_B a_I m^_I d_I a_I p^_E
+สถานที่ สถานที่ s_B a_I th_I aa_I n^_I th_I ii_E
+สยาม สยาม s_B a_I j_I aa_I m^_E
+สอง สอง s_B @@_I ng^_E
+สาม สาม s_B aa_I m^_E
+สามย่าน สามย่าน s_B aa_I m_I j_I aa_I n^_E
+สิบ สิบ s_B i_I p^_E
+สี่ สี่ s_B ii_E
+สุดท้าย สุดท้าย s_B u_I t^_I th_I aa_I j^_E
+หก หก h_B o_I k^_E
+หนึ่ง หนึ่ง n_B v_I ng^_E
+หน้า หน้า n_B aa_E
+หมูกระทะ หมูกระทะ m_B uu_I kr_I a_I th_I a_E
+หา หา h_B aa_E
+ห้า ห้า h_B aa_E
+อย่าง อย่าง j_B aa_I ng^_E
+อาหาร อาหาร z_B aa_I h_I aa_I n^_E
+อีสาน อีสาน z_B ii_I s_I aa_I n^_E
+เกาหลี เกาหลี k_B a_I w^_I l_I ii_E
+เก้า เก้า k_B a_I w^_E
+เค้ก เค้ก kh_B k^_E
+เจ็ด เจ็ด c_B e_I t^_E
+เบอร์ เบอร์ b_B qq_E
+เบอร์โทร เบอร์โทร b_B qq_I s_E
+เบียร์ เบียร์ b_B iia_E
+เปลี่ยน เปลี่ยน pl_B iia_I n^_E
+เปิด เปิด p_B qq_I t^_E
+เยาวราช เยาวราช j_B a_I w^_I w_I a_I r_I aa_I t^_E
+เลือก เลือก l_B vva_I k^_E
+เวลา เวลา w_B ee_I l_I aa_E
+เสต๊ก เสต๊ก s_B ee_I t_I o_I k^_E
+เหล้า เหล้า l_B a_I w^_E
+เอ็ด เอ็ด z_B e_I t^_E
+แถว แถว th_B xx_I w^_E
+แปด แปด p_B xx_I t^_E
+แผนที่ แผนที่ ph_B xx_I n^_I th_I ii_E
+แพง แพง ph_B xx_I ng^_E
+แรก แรก r_B xx_I k^_E
+แสดง แสดง s_B a_I d_I xx_I ng^_E
+แอลกอฮอล์ แอลกอฮอล์ z_B xx_I l^_I k^_I z_I h_I @@_I w^_E
+โกวาจี โกวาจี k_B oo_I w_I aa_I c_I ii_E
+โทร โทร th_B oo_I r_I a_I j^_E
+โทรศัพท์ โทรศัพท์ th_B oo_I r_I a_I s_I a_I p^_E
+ใกล้ ใกล้ kl_B a_I j^_E
+ใน ใน n_B a_I j^_E
+ไป ไป p_B a_I j^_E
+ไม่ ไม่ m_B a_I j^_E
+ไม่เลือก ไม่เลือก m_B a_I j^_I l_I vva_I k^_E
+ไวไฟ ไวไฟ w_B a_I f_I a_I j^_E
+ไหม ไหม m_B a_I j^_E

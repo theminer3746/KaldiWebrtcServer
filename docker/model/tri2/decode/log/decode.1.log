@@ -1,0 +1,130 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri2/graph/words.txt exp/tri2/final.mdl exp/tri2/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri2/decode/lat.1.gz" 
+# Started at Sun May  2 10:02:30 UTC 2021
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri2/graph/words.txt exp/tri2/final.mdl exp/tri2/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri2/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+6030133421_0004 ไป หน้า ถัดไป 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0004 is -7.68394 over 303 frames.
+6030133421_0006 ไป หน้า ก่อนหน้า 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0006 is -7.96703 over 237 frames.
+6030133421_0008 ไป หน้า แรก 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0008 is -7.74959 over 208 frames.
+6030133421_0010 ถัด ไป หน้า แรก 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0010 is -8.15856 over 225 frames.
+6030133421_0012 ไป หน้า สุดท้าย 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0012 is -8.35175 over 223 frames.
+6030133421_0014 เปลี่ยน หน้า ไป หน้า ที่ หนึ่ง 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0014 is -8.01448 over 313 frames.
+6030133421_0016 เปลี่ยน หน้า ไป หน้า ที่ สาม 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0016 is -8.20155 over 263 frames.
+6030133421_0018 เปลี่ยน หน้า ไป หน้า ที่ เก้า 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0018 is -7.745 over 342 frames.
+6030133421_0020 เปลี่ยน หน้า ไป หน้า ที่ สิบ เสต๊ก 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0020 is -8.2588 over 306 frames.
+6030133421_0022 เปลี่ยน หน้า ไป หน้า ที่ แปด 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0022 is -8.23663 over 282 frames.
+6030133421_0024 เปลี่ยน หน้า ไป หน้า ที่ ยี่ สิบ 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0024 is -8.31161 over 312 frames.
+6030133421_0026 ย้อน ร้าน ลำดับ ที่ สี่ 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0026 is -8.12964 over 384 frames.
+6030133421_0028 เลือก ร้าน ที่ สิบ เก้า 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0028 is -8.21831 over 275 frames.
+6030133421_0030 เลือก ร้าน ลำดับ ที่ ยี่ สิบ 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0030 is -9.00344 over 272 frames.
+6030133421_0032 เลือก ร้าน ที่ สิบ แปด 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0032 is -8.3261 over 244 frames.
+6030133421_0034 เลือก ร้าน ลำดับ สิบ สอง 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0034 is -8.69874 over 233 frames.
+6030133421_0036 เลือก ร้าน ที่ สิบ เอ็ด 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0036 is -8.36896 over 277 frames.
+6030133421_0038 เลือก รายการ แปด 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0038 is -8.31984 over 208 frames.
+6030133421_0040 เลือก ลำดับ ที่ สิบ สาม 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0040 is -8.40858 over 284 frames.
+6030133421_0042 เลือก รายการ ที่ เก้า 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0042 is -8.1008 over 267 frames.
+6030133421_0044 เลือก รายการ สิบ 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030133421_0044 is -8.47717 over 207 frames.
+6030352521_0046 ประเภท ที่ ที่ หนึ่ง 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0046 is -6.99452 over 203 frames.
+6030352521_0048 ประเภท คลองสาร 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0048 is -6.81028 over 210 frames.
+6030352521_0050 ประเภท สี่ 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0050 is -6.59228 over 275 frames.
+6030352521_0052 ประเภท บัตรเครดิต 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0052 is -6.93199 over 215 frames.
+6030352521_0054 ประเภท อาหาร เกาหลี 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0054 is -6.75853 over 248 frames.
+6030352521_0056 ประเภท อาหาร ที่ สาม 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0056 is -6.9225 over 228 frames.
+6030352521_0058 ร้าน ติ่มซำ 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0058 is -6.58444 over 210 frames.
+6030352521_0060 ร้าน อาหาร ทะเล 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0060 is -6.8244 over 200 frames.
+6030352521_0062 หา ร้าน ที่ ที่ เก้า 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0062 is -6.72287 over 266 frames.
+6030352521_0064 หา ร้าน ที่ หนึ่ง 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0064 is -6.50777 over 233 frames.
+6030352521_0066 หา ร้าน ร้านอาหาร 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0066 is -6.7255 over 248 frames.
+6030352521_0068 เลือก ประเภท 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0068 is -6.4094 over 251 frames.
+6030352521_0070 แสดง ประเภท ร้าน อาหาร 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0070 is -6.89165 over 306 frames.
+6030352521_0072 ยกเลิก 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0072 is -6.66023 over 201 frames.
+6030352521_0074 ช่วง ราคา ถูก มาก 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0074 is -6.98203 over 239 frames.
+6030352521_0076 ราคา ปานกลาง 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0076 is -6.55709 over 257 frames.
+6030352521_0078 ราคา ถูก 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0078 is -6.6778 over 248 frames.
+6030352521_0080 ราคา ถูก มาก 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0080 is -6.72281 over 212 frames.
+6030352521_0082 อย่าง ต่ำ สาม อย่าง 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0082 is -7.18859 over 212 frames.
+6030352521_0084 ไม่เลือก อย่าง 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0084 is -6.95067 over 194 frames.
+6030352521_0086 บริเวณ สยาม 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0086 is -7.17079 over 228 frames.
+6030352521_0088 แถว แถว ข้าวสาร 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0088 is -6.96039 over 221 frames.
+6030352521_0090 แถว คลองตัน 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0090 is -6.83051 over 206 frames.
+6030352521_0092 ใน ตลาดนัด จตุจักร 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0092 is -7.14804 over 231 frames.
+6030352521_0094 เลือก สถานที่ 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6030352521_0094 is -6.60418 over 233 frames.
+6031323521_0096 ดู รีวิว ถัด 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0096 is -8.03288 over 172 frames.
+LOG (apply-cmvn[5.5.0~1531-d619]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 59 utterances, errors on 0
+6031323521_0098 ดู รีวิว ถัด ไป 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0098 is -8.05964 over 191 frames.
+6031323521_0100 นำทาง 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0100 is -7.6296 over 159 frames.
+6031323521_0102 นำทาง ไป ที่ ร้าน 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0102 is -8.32528 over 159 frames.
+6031323521_0104 ดู เบอร์ เก้า 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0104 is -7.70826 over 148 frames.
+6031323521_0106 ดู เบอร์ โทรศัพท์ ร้าน 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0106 is -8.60018 over 132 frames.
+6031323521_0108 โทรศัพท์ หา ร้าน 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0108 is -7.91962 over 121 frames.
+6031323521_0110 ดู รูป ถัด ไป 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0110 is -7.92966 over 169 frames.
+6031323521_0112 ดู รูป ก่อน หน้า 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0112 is -7.61666 over 181 frames.
+6031323521_0114 มี ที่ ดาว ไหม 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0114 is -8.2695 over 154 frames.
+6031323521_0116 ลำดับ ที่ ไหม 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0116 is -8.33533 over 167 frames.
+6031323521_0118 มี เบียร์ ไหม 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0118 is -7.49669 over 178 frames.
+6031323521_0120 เกาหลี เปิด ไหม 
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 6031323521_0120 is -8.0978 over 160 frames.
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:main():gmm-latgen-faster.cc:176) Time taken 3.76795s: real-time factor assuming 100 frames/sec is 0.0278468
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:main():gmm-latgen-faster.cc:179) Done 59 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.0~1531-d619]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.5749 over 13531 frames.
+# Accounting: time=4 threads=1
+# Ended (code 0) at Sun May  2 10:02:34 UTC 2021, elapsed time 4 seconds
