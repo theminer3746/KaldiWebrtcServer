@@ -1,4 +1,4 @@
-FROM debian:testing
+FROM debian:testing AS builder
 MAINTAINER Danijel Koržinek <danijel.korzinek@pja.edu.pl>
 
 RUN apt-get update && \
@@ -24,8 +24,10 @@ RUN cd / && cp /kaldi/src/onlinebin/online-audio-server-decode-faster /usr/bin
 
 RUN cd / && cp /kaldi/src/online2bin/online2-tcp-nnet3-decode-faster /usr/bin && \
 		cp -a /kaldi/tools/openfst/lib/libfst.so* /usr/lib/x86_64-linux-gnu
-# RUN rm -rf /kaldi
 
-RUN apt-get install -y nano
+
+FROM debian:testing
+
+COPY --from=builder /kaldi/src/onlinebin/online-audio-server-decode-faster /usr/bin
 
 ENTRYPOINT ["/bin/bash","-c"]
