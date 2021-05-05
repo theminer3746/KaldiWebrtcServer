@@ -38,7 +38,8 @@ RUN apt-get update && \
 COPY mkl_script.sh .
 RUN chmod +x mkl_script.sh && ./mkl_script.sh
 
-COPY --from=builder /kaldi/src/onlinebin/online-audio-server-decode-faster /usr/bin
 COPY --from=builder /kaldi/tools/openfst/lib/ /usr/lib/x86_64-linux-gnu
+COPY --from=builder /kaldi/src/online2bin/online2-tcp-nnet3-decode-faster /usr/bin
+COPY --from=builder /kaldi/src/onlinebin/online-server-gmm-decode-faster /usr/bin
 
 ENTRYPOINT ["/bin/bash","-c"]
